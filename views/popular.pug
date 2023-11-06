@@ -1,0 +1,12 @@
+doctype html
+html
+    head
+        title Top 10 Popular Pages
+    body
+        h1 Top 10 Pages with the Most Incoming Links
+        ul
+            each page in pages
+                li
+                    strong URL: 
+                    a(href=`/page/${page.id}`) N-#{page.id}.html
+                    br

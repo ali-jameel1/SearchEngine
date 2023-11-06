@@ -1,0 +1,19 @@
+doctype html
+html
+    head
+        title Page #{page.pageHeader}
+    body
+        h1 Page #{page.pageHeader}
+        ul
+            li
+                strong Content: 
+                a #{page.pageContents}
+                br
+            li
+                strong Links: 
+                a #{page.pageOutLinks}
+                br
+            li
+                strong Linked By: 
+                a #{page.pageInLinks}
+                br
